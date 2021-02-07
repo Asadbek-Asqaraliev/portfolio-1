@@ -1,0 +1,164 @@
+.footer-link{
+    display: block;
+    color: #cacaca;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 4px;
+}
+
+.footer{
+    background-color: #222222;
+    padding-top: 48px;
+    padding-bottom: 82px;
+}
+
+.footer-logo{
+    margin-bottom: 4px;
+}
+.footer-left-col{
+    margin-right: 237px;
+}
+.footer-text{
+    width: 363px;
+    color: #cacaca;
+    margin-bottom: 42px;
+}
+
+.footer-position{
+    display: flex;
+}
+
+.footer-list{
+    display: flex;
+}
+
+.footer-icon{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+}
+
+.facebook{
+    background: url("../img/fb.svg") no-repeat;
+}
+
+.vk{
+    background: url("../img/Vector.svg") no-repeat;
+}
+
+.inst{
+    background: url("../img/instagram.svg") no-repeat;
+}
+
+.footer-right-col{
+    margin-right: 330px;
+}
+
+.footer-caption{
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 58px;
+    color: #cacaca;
+    margin-top: 10px;
+    margin-bottom: 48px;
+}
+.footer-input{
+    display: block;
+    width: 570px;
+    height: 60px;
+    background-color: #414141;
+    border: none;
+    padding: 15px 24px;
+    margin-bottom: 25px;
+}
+
+.footer-input::placeholder{
+    color: #cacaca;
+    opacity: 0.7;
+}
+
+.footer-form{
+    margin-top: -23px;
+}
+.footer-textarea{
+    min-height: 150px;
+    resize: none;
+    margin-bottom: 32px;
+}
+
+.footer-check{
+    display: none;
+}
+
+.settings-footer-check{
+    height: 14px;
+    width: 14px;
+    border: 2px solid #cacaca;
+    display: inline-block;
+    position: relative;
+    background-color:none;
+    border-radius:2px;
+    padding:3px;
+    top: 0px;
+}
+
+[type=checkbox]:checked + span:before {
+    content: '\2714';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    font-size:15px;
+    color:#97EE3F;
+}
+
+.footer-check-name{
+    color: #cacaca;
+    line-height: 32px;
+}
+
+.footer-btn{
+    padding: 20px 52px;
+    font-weight: bold;
+    background-color: #FF9900;
+    color: #ffffff;
+    border: none;
+    margin-right: 20px;
+}
+
+.footer-link{
+    display: block;
+    color: #cacaca;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 4px;
+}
+
+.footer-link-position{
+    margin-right: 345px;
+}
+
+.footer-social-position{
+    margin-bottom: 108px;
+}
+
+.footer-list-tablet{
+    display: none;
+}
+
+/* .footer-description{
+    margin-right: 237px;
+} */
+
+.footer-form-position{
+    margin-right: 237px;
+}
+
+.footer-description{
+    margin-top: 65px;
+}
+
+.check-text{
+    position: relative;
+    top: 0px;
+}

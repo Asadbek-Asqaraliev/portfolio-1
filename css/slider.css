@@ -1,0 +1,88 @@
+.top-banner{
+    margin-bottom: 248px;
+}
+
+.slider{
+    width: 100%;
+    background-size: cover;
+}
+
+.swiper-slide{
+    padding-top: 56px;
+    padding-bottom: 92px;
+}
+
+.swiper-container {
+    height: 620px;
+}
+
+.slider-text-position{
+    position: relative;
+    left: -605px;
+    width: 400px;
+    top:55px;
+    z-index: 5;
+    padding-top: 47px;
+}
+
+.slide-1{
+    background: url('../img/slide-1.png') no-repeat;
+    background-size: cover;
+}
+
+.slide-2{
+    background: url('../img/slide-2.png') no-repeat;
+    background-size: cover;
+}
+
+.slide-3{
+    background: url('../img/slide-3.png') no-repeat;
+    background-size: cover;
+}
+
+.swiper-pagination{
+    display: block;
+}
+
+.slide-caption{
+    width: 840px;
+    line-height: 86px;
+    font-size: 70.3742px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.slide-text{
+    width: 764px;
+    line-height: 29px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 95px;
+}
+
+.slide-button{
+    background-color: #FF9900;
+    color: #ffffff;
+    border: none;
+    padding: 25px 38px;
+    font-weight: bold;
+    font-size: 23.4581px;
+    line-height: 29px;
+    transition: linear 0.2s;
+    outline: #ffffff;
+}
+
+.slide-button:focus{
+    outline: 1px solid #ffffff;
+}
+
+.slide-button:hover{
+    transition: linear 0.2s;
+    background:rgba(255, 153, 0, 0.6);
+}
+
+.swiper-slide:focus{
+    outline: 1px solid #333333;
+}

@@ -1,0 +1,133 @@
+.about{
+    margin-bottom: 100px;
+}
+
+.about-caption{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 21px;
+    font-weight: 400;
+}
+
+.about-text{
+    width: 1275px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 44px;
+    padding-right: 40px;
+}
+
+.image-collumn{
+    display: flex;
+    width: 925px;
+    background: url("../img/Rectangle2.png");
+    background-repeat: no-repeat;
+    padding-top: 446px;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.band-image-collumn{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 22px;
+    padding-left: 54px;
+    height: 176px;
+}
+
+.text-image-collumn{
+    display: inline-block;
+    width: 495px;
+    color: #ffffff;
+    line-height: 32px;
+    margin-right: 76px;
+    font-weight: bold;
+}
+
+.btn-image-collumn{
+    align-items: center;
+    position: absolute;
+    padding: 13px 38px;
+    border: 2px solid #FF9900;
+    color: #ffffff;
+    margin-top: 34px;
+    transition: linear 0.2s;
+}
+
+.btn-image-collumn:hover{
+    transition: linear 0.2s;
+    background-color: #FF9900;
+}
+.card-collumn{
+    width: 925px;
+}
+
+.about-position-collumn{
+    display: flex;
+    margin-bottom: -25px;
+}
+
+.card-abbout{
+    padding-left: 297px;
+    padding-top: 66px;
+    padding-bottom: 62px;
+    border: 2px solid #cacaca;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.form-package{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background: url('../img/package.svg')no-repeat;
+    left: 1022px;
+    top: 388px;
+    z-index: 90;
+}
+
+.package-elips{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #FF9900;
+    left: 963px;
+    top: 405px;
+    z-index: 90;
+}
+
+.settings-elips{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #FF9900;
+    left: 963px;
+    top: 730px;
+    z-index: 90;
+}
+
+.form-settings{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background: url('../img/sett.svg')no-repeat;
+    left: 1014px;
+    top: 697px;
+    z-index: 90;
+}
+
+.settings-caption{
+    margin-bottom: -15px;
+}
+.caption-additional{
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+.about-card-collumn-text{
+    width: 425px;
+    margin: 0;
+}
